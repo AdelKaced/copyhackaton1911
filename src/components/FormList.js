@@ -47,7 +47,11 @@ function FormList() {
   return (
     <div>
       {' '}
-      <h1> What do you want to exchange ? {user.onUser && user.logUser.id} </h1>
+      <h1>
+        {' '}
+        Welcome {user.onUser && user.logUser.id} , what do you have to exchange
+        ?
+      </h1>
       <div className="form">
         <div className="formList">
           {array.map((product) => (

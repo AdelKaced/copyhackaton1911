@@ -1,8 +1,6 @@
-import Caroussel from "./Caroussel";
-import FormList from "./FormList";
-import SearchList from "./SearchList";
-
-
+import Caroussel from './Caroussel';
+import FormList from './FormList';
+import SearchList from './SearchList';
 
 function App() {
   return (
@@ -10,6 +8,7 @@ function App() {
       <Caroussel />
       <FormList />
       <SearchList />
+      <button>valide</button>
     </div>
   );
 }
