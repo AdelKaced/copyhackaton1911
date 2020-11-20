@@ -1,5 +1,5 @@
 .search-display {
-  background-color: #997a8d;
+  background-color: #c66306;
   margin-bottom: 120px;
   display: flex;
   justify-content: space-around;
@@ -7,7 +7,7 @@
 
 .search-img img {
   width: 200px;
-  height: 300px;
+  height: 200px;
   margin-top: 20px;
   padding: 2em;
 }
@@ -26,12 +26,11 @@
 .search-displayOn {
   transform: scale(1.1);
   transition: 0.8s;
-  margin: 20px 10px 60px 20px ; 
+  margin: 20px 10px 60px 20px;
 }
 
 .search-displayOff {
   transform: scale(1);
   transition: 0.8s;
-  margin: 20px 10px 60px 20px ;
-  
+  margin: 20px 10px 60px 20px;
 }

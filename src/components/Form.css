@@ -1,5 +1,5 @@
 .form-style {
-  background-color: greenyellow;
+  background-color: #c66306;
   width: 100%;
   height: auto;
   padding-top: 10%;
@@ -11,23 +11,22 @@
 }
 
 .img-form {
-  /* max-height: 0%;
-  max-width: 100%; */
   width: 200px;
-  height: 300px;
+  height: 200px;
 }
- 
-.card-on {
 
- transform: scale(1.1);
- transition: 0.8s;
- margin: 20px 10px 60px 20px ;
- 
+.card-on {
+  transform: scale(1.1);
+  transition: 0.8s;
+  margin: 20px 10px 60px 20px;
 }
- .card-off {
-  margin: 20px 10px 60px 20px ;
+.card-off {
+  margin: 20px 10px 60px 20px;
   transform: scale(1);
   transition: 0.8s;
-} 
-
-
+}
+h1 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  color: #c66306;
+}

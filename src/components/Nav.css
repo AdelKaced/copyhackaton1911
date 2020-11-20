@@ -1,14 +1,15 @@
 .nav {
-  display: flex ;
-  background-color:aquamarine ;
+  display: flex;
+  /* background-color: #ffda89; */
+  /* background-color: aquamarine; */
   justify-content: space-between;
   align-items: center;
 }
 
 .nav form {
-    position: absolute;
+  position: absolute;
   display: flex;
-  right :220px ;
+  right: 220px;
 }
 
 .nav img {
@@ -16,12 +17,11 @@
 }
 
 .connect {
-    margin-right: 30em;
+  margin-right: 30em;
 }
 
 .nav button {
-    background-color: darkblue;
-    color :white ;
-    box-shadow: whitesmoke;
-
+  background-color: darkblue;
+  color: white;
+  box-shadow: whitesmoke;
 }

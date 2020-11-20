@@ -1,9 +1,27 @@
-/* .form-style {
-  display: flex;
-  border: 2px solid red;
-} */
-
 .formList {
   display: flex;
   justify-content: space-evenly;
+}
+.fieldset {
+  border: 5px solid #c66306;
+  width: 1200px;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.addProduit {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #c66306;
+}
+
+.body-form {
+  padding-bottom: 25px;
+}
+.labname {
+  padding-right: 20px;
+}
+.labpicture {
+  padding-right: 10px;
+  padding-left: 30px;
 }

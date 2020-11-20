@@ -1,43 +1,43 @@
-import React, { useState } from "react";
-import "./search.css";
-import Search from './Search'
+import React, { useState } from 'react';
+import './search.css';
+import Search from './Search';
 
 const products = [
   {
-    name: " Cat  ",
-    function: "best chat in the market",
+    name: ' Donkey ',
+    function: 'best chat in the market',
     quantity: 2,
-    picture:
-      "https://previews.123rf.com/images/chris_elwell/chris_elwell1506/chris_elwell150600017/40962129-rustique-fourche-en-bois-en-plein-champ-de-bl%C3%A9.jpg",
+    picture: './img/ane.jpeg',
+    // 'https://previews.123rf.com/images/chris_elwell/chris_elwell1506/chris_elwell150600017/40962129-rustique-fourche-en-bois-en-plein-champ-de-bl%C3%A9.jpg',
   },
 
   {
-    name: "Fork",
-    function: "Best fourk in the market ",
+    name: 'Fork',
+    function: 'Best fourk in the market ',
     quantity: 10,
     picture:
-      "https://previews.123rf.com/images/chris_elwell/chris_elwell1506/chris_elwell150600017/40962129-rustique-fourche-en-bois-en-plein-champ-de-bl%C3%A9.jpg",
+      'https://previews.123rf.com/images/chris_elwell/chris_elwell1506/chris_elwell150600017/40962129-rustique-fourche-en-bois-en-plein-champ-de-bl%C3%A9.jpg',
   },
   {
-    name: " pelle ",
-    function: "Best pelle in the market",
+    name: ' pelle ',
+    function: 'Best pelle in the market',
     quantity: 2,
     picture:
-      "https://media.istockphoto.com/photos/shovel-picture-id872877836?k=6&m=872877836&s=612x612&w=0&h=UfE4xOjQNSSlG1SmpZ8vmEojSKvS-z4NIp9IN8EvP74=",
+      'https://media.istockphoto.com/photos/shovel-picture-id872877836?k=6&m=872877836&s=612x612&w=0&h=UfE4xOjQNSSlG1SmpZ8vmEojSKvS-z4NIp9IN8EvP74=',
   },
   {
-    name: " pelle ",
-    function: "Best pelle in the market",
+    name: ' Cart ',
+    function: 'Best pelle in the market',
     quantity: 2,
-    picture:
-      "https://media.istockphoto.com/photos/shovel-picture-id872877836?k=6&m=872877836&s=612x612&w=0&h=UfE4xOjQNSSlG1SmpZ8vmEojSKvS-z4NIp9IN8EvP74=",
+    picture: './img/chariot.jpeg',
+    // 'https://media.istockphoto.com/photos/shovel-picture-id872877836?k=6&m=872877836&s=612x612&w=0&h=UfE4xOjQNSSlG1SmpZ8vmEojSKvS-z4NIp9IN8EvP74=',
   },
   {
-    name: " pelle ",
-    function: "Best pelle in the market",
+    name: ' Chicken ',
+    function: 'Best pelle in the market',
     quantity: 2,
-    picture:
-      "https://media.istockphoto.com/photos/shovel-picture-id872877836?k=6&m=872877836&s=612x612&w=0&h=UfE4xOjQNSSlG1SmpZ8vmEojSKvS-z4NIp9IN8EvP74=",
+    picture: './img/poule.jpeg',
+    // 'https://media.istockphoto.com/photos/shovel-picture-id872877836?k=6&m=872877836&s=612x612&w=0&h=UfE4xOjQNSSlG1SmpZ8vmEojSKvS-z4NIp9IN8EvP74=',
   },
 ];
 

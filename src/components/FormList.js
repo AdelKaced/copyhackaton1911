@@ -1,6 +1,6 @@
-import React , {useContext} from 'react';
+import React, { useContext } from 'react';
 import './FormList.css';
-import UserContext from "../Context/UserContext";
+import UserContext from '../Context/UserContext';
 
 import Form from './Form';
 
@@ -10,14 +10,15 @@ const array = [
     picture: 'gargantua.jpg',
   },
   {
-    name: 'Donkey',
-    picture:
-      'https://medias.liberation.fr/photo/1138864-l-artiste-performeur-abraham-poincheval-sillonne-la-campagne-bretonne-a-pied-avec-armure-medievale-l.jpg?modified_at=1531218006&width=960',
+    name: 'MaÏs',
+    picture: './img/mais.jpeg',
+
+    // 'https://medias.liberation.fr/photo/1138864-l-artiste-performeur-abraham-poincheval-sillonne-la-campagne-bretonne-a-pied-avec-armure-medievale-l.jpg?modified_at=1531218006&width=960',
   },
   {
-    name: 'Armor',
-    picture:
-      'https://medias.liberation.fr/photo/1138864-l-artiste-performeur-abraham-poincheval-sillonne-la-campagne-bretonne-a-pied-avec-armure-medievale-l.jpg?modified_at=1531218006&width=960',
+    name: 'Agraf',
+    picture: './img/agraf.jpeg',
+    // 'https://medias.liberation.fr/photo/1138864-l-artiste-performeur-abraham-poincheval-sillonne-la-campagne-bretonne-a-pied-avec-armure-medievale-l.jpg?modified_at=1531218006&width=960',
   },
 ];
 
@@ -34,7 +35,6 @@ function FormList() {
   };
 
   const user = useContext(UserContext);
- 
 
   const submitForm = (e) => {
     e.preventDefault();
@@ -42,22 +42,23 @@ function FormList() {
     setAdd(!add);
   };
 
-
   console.log(user);
   return (
     <div>
       {' '}
-      <h1> What do you want to exchange {user.onUser && user.logUser.id } </h1>
+      <h1> What do you want to exchange ? {user.onUser && user.logUser.id} </h1>
       <div className="form">
         <div className="formList">
           {array.map((product) => (
             <Form info={product} />
           ))}
-        </div >
-        <fieldset>
-          <legend>Add product </legend>
+        </div>
+        <fieldset className="fieldset">
+          <legend className="addProduit">Add product </legend>
           <form onSubmit={submitForm} className="body-form">
-            <label for="name">Name </label>
+            <label className="labname" for="name">
+              Name{' '}
+            </label>
 
             <input
               type="text"
@@ -68,7 +69,9 @@ function FormList() {
               placeholder="Choose your product"
             />
 
-            <label for="picture">Picture </label>
+            <label className="labpicture" for="picture">
+              Picture 
+            </label>
 
             <input
               type="text"

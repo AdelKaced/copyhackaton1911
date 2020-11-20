@@ -1,5 +1,5 @@
-import React from "react";
-import "./Form.css";
+import React from 'react';
+import './Form.css';
 
 function Form({ info }) {
   const [troc, setTroc] = React.useState(false);
@@ -9,12 +9,10 @@ function Form({ info }) {
   };
 
   return (
-    <div className={troc ? "card-on" : "card-off"}>
+    <div className={troc ? 'card-on' : 'card-off'}>
       <p>{info.name} </p>
       <img src={info.picture} alt={info.name} className="img-form" />
-      <button  onClick={changeTroc}>
-        Propose this info
-      </button>
+      <button onClick={changeTroc}>Select Troc</button>
     </div>
   );
 }

@@ -1,15 +1,15 @@
-import { useState } from "react";
-import "./Nav.css";
-import UserContext from '../Context/UserContext'
+import { useState } from 'react';
+import './Nav.css';
+import UserContext from '../Context/UserContext';
 
-import Content from "./Content";
+import Content from './Content';
 
 function Nav() {
   const [user, setUSer] = useState(false);
 
   const [logUser, setLogUser] = useState({
-    id: "",
-    password: "",
+    id: '',
+    password: '',
   });
 
   const login = () => {
@@ -20,13 +20,12 @@ function Nav() {
     setLogUser({ ...logUser, [e.target.name]: e.target.value });
   };
 
-  const [onUser ,setOnUser] =useState(false)
+  const [onUser, setOnUser] = useState(false);
 
-const submit = (e) => {
-e.preventDefault()
-setOnUser(!onUser)
-}
-
+  const submit = (e) => {
+    e.preventDefault();
+    setOnUser(!onUser);
+  };
 
   // const submit = (e) => {
   //   e.preventDefault();
@@ -54,15 +53,18 @@ setOnUser(!onUser)
   //       alert("Your ad has not been published, please start over.");
   //     });
   // };
-  
+
   return (
     <div>
       <div className="nav">
         <img src="logohaka.png" alt="logo" />
         <div className="connect">
-          <button onClick={login}> {onUser ? "Disconnect" : "Connexion" }</button>
+          <button onClick={login}>
+            {' '}
+            {onUser ? 'Disconnect' : 'Connexion'}
+          </button>
           {user && (
-            <form  onSubmit={submit}  >
+            <form onSubmit={submit}>
               <label> Your Id </label>
               <input
                 type="text"
@@ -85,8 +87,9 @@ setOnUser(!onUser)
           )}
         </div>
       </div>
-      <UserContext.Provider value={{logUser,onUser}} >
-      <Content />
+
+      <UserContext.Provider value={{ logUser, onUser }}>
+        <Content />
       </UserContext.Provider>
     </div>
   );
