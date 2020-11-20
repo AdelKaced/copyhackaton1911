@@ -1,0 +1,33 @@
+.form-style {
+  background-color: greenyellow;
+  width: 100%;
+  height: auto;
+  padding-top: 10%;
+  font-family: 'MedievalSharp', cursive;
+  padding: 2em;
+}
+.form-style h1 {
+  margin-bottom: 2em;
+}
+
+.img-form {
+  /* max-height: 0%;
+  max-width: 100%; */
+  width: 200px;
+  height: 300px;
+}
+ 
+.card-on {
+
+ transform: scale(1.1);
+ transition: 0.8s;
+ margin: 20px 10px 60px 20px ;
+ 
+}
+ .card-off {
+  margin: 20px 10px 60px 20px ;
+  transform: scale(1);
+  transition: 0.8s;
+} 
+
+

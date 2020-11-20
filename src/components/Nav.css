@@ -1,0 +1,27 @@
+.nav {
+  display: flex ;
+  background-color:aquamarine ;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav form {
+    position: absolute;
+  display: flex;
+  right :220px ;
+}
+
+.nav img {
+  width: 8%;
+}
+
+.connect {
+    margin-right: 30em;
+}
+
+.nav button {
+    background-color: darkblue;
+    color :white ;
+    box-shadow: whitesmoke;
+
+}

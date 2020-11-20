@@ -1,0 +1,11 @@
+.slides {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  background-color: #997a8d;
+}
+
+.echange {
+  width: 300px;
+  height: 250px;
+}

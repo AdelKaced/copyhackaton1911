@@ -1,0 +1,9 @@
+/* .form-style {
+  display: flex;
+  border: 2px solid red;
+} */
+
+.formList {
+  display: flex;
+  justify-content: space-evenly;
+}
