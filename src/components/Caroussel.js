@@ -5,16 +5,16 @@ function Caroussel() {
   return (
     <div className="slider">
       <div className="slides">
-        <div>
+        {/* <div>
           <img className="echange" src="./img/images1.jpeg" alt="echange" />
-        </div>
-        <div>
+        </div> */}
+        {/* <div>
           <img
             className="echange"
-            src="./img/images4.jpeg"
+            src="./img/coffre.jpeg"
             alt="img moyen age"
           />
-        </div>
+        </div> */}
         <div>
           <img
             className="echange"

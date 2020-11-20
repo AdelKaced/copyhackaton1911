@@ -7,18 +7,19 @@ import Form from './Form';
 const array = [
   {
     name: 'Charret',
-    picture: 'gargantua.jpg',
+    picture: './img/charrette.jpeg',
   },
   {
-    name: 'MaÏs',
+    name: 'Coffre',
+    picture: './img/coffre.jpeg',
+  },
+  {
+    name: 'Corn',
     picture: './img/mais.jpeg',
-
-    // 'https://medias.liberation.fr/photo/1138864-l-artiste-performeur-abraham-poincheval-sillonne-la-campagne-bretonne-a-pied-avec-armure-medievale-l.jpg?modified_at=1531218006&width=960',
   },
   {
-    name: 'Agraf',
-    picture: './img/agraf.jpeg',
-    // 'https://medias.liberation.fr/photo/1138864-l-artiste-performeur-abraham-poincheval-sillonne-la-campagne-bretonne-a-pied-avec-armure-medievale-l.jpg?modified_at=1531218006&width=960',
+    name: 'Armor',
+    picture: './img/armure.jpg',
   },
 ];
 

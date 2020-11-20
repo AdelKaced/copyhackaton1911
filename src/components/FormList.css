@@ -1,5 +1,6 @@
 .formList {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .fieldset {

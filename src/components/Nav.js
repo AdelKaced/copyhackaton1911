@@ -57,9 +57,12 @@ function Nav() {
   return (
     <div>
       <div className="nav">
-        <img src="logohaka.png" alt="logo" />
+        <img src="./img/logo15.png" alt="logo" />
+
+        <h2>Troc proposition </h2>
+        <h2>Troc search</h2>
         <div className="connect">
-          <button onClick={login}>
+          <button className="nav-btn" onClick={login}>
             {' '}
             {onUser ? 'Disconnect' : 'Connexion'}
           </button>

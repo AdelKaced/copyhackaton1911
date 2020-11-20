@@ -1,27 +1,28 @@
 .nav {
   display: flex;
-  /* background-color: #ffda89; */
-  /* background-color: aquamarine; */
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 18px;
 }
 
 .nav form {
   position: absolute;
   display: flex;
-  right: 220px;
+  right: 110px;
 }
 
 .nav img {
-  width: 8%;
+  width: 10%;
 }
 
 .connect {
-  margin-right: 30em;
+  margin-right: 20em;
+}
+h2 {
+  color: #c66306;
 }
 
-.nav button {
-  background-color: darkblue;
-  color: white;
-  box-shadow: whitesmoke;
+.nav-btn {
+  background-color: #c66306;
+  padding: 8px;
 }

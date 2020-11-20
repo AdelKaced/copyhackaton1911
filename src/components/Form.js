@@ -9,10 +9,14 @@ function Form({ info }) {
   };
 
   return (
-    <div className={troc ? 'card-on' : 'card-off'}>
-      <p>{info.name} </p>
-      <img src={info.picture} alt={info.name} className="img-form" />
-      <button onClick={changeTroc}>Select Troc</button>
+    <div>
+      <div className={troc ? 'card-on' : 'card-off'}>
+        <p>{info.name} </p>
+        <img src={info.picture} alt={info.name} className="img-form" />
+      </div>
+      <div>
+        <button onClick={changeTroc}>Select Troc</button>
+      </div>
     </div>
   );
 }
